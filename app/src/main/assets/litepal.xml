@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "withweather"/>    //指定数据库名
+    <version value = "2"/>     //数据库版本号
+    <!--将三个实体类添加到映射列表中-->
+    <list>
+        <mapping class = "xyz.yyaxu.withweather.db.Province"/>
+        <mapping class = "xyz.yyaxu.withweather.db.City"/>
+        <mapping class = "xyz.yyaxu.withweather.db.County"/>
+    </list>
+</litepal>
