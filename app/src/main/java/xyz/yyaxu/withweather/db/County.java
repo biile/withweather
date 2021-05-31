@@ -3,11 +3,11 @@ package xyz.yyaxu.withweather.db;
 import org.litepal.crud.DataSupport;
 
 public class County extends DataSupport {
-    private int id;//每一个实体类都需有一个id
-    private String countyName; //记录区县名称
-    private int countyCode;//记录区县代码
-    private int weatherId;//记录该区县的天气信息
-    private int cityId;//该区县所属的市级代码
+    public int id;//每一个实体类都需有一个id
+    public String countyName; //记录区县名称
+    public int countyCode;//记录区县代码
+    public int weatherId;//记录该区县的天气信息
+    public int cityId;//该区县所属的市级代码
     public int getId() {
         return id;
     }

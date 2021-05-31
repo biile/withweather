@@ -4,10 +4,10 @@ import org.litepal.crud.DataSupport;
 
 public class City extends DataSupport {
 
-    private int id;   //每一个实体类都有一个id
-    private String cityName;  //记录市名称
-    private int cityCode;   //记录市的代码
-    private int provinceCode;  //记录该市的上级省级代码
+    public int id;   //每一个实体类都有一个id
+    public String cityName;  //记录市名称
+    public int cityCode;   //记录市的代码
+    public int provinceCode;  //记录该市的上级省级代码
     public int getId() {
         return id;
     }
